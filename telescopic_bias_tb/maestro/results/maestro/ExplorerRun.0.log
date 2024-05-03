@@ -1,0 +1,24 @@
+Starting Single Run, Sweeps and Corners...
+
+Current time: Thu May  2 22:02:26 2024 
+Best design point: 1
+Design specs: 
+	ece483_sp23_telescopic_bias_tb_1	corner	Nominal - 
+	mirror I		-27.96u
+	vbn I		29.29u
+	orig I		25.01u
+	vbp I		27.49u
+	vbn1 V		743.7m
+	vpb1 V		1.058
+	VDC("/net1")		609.2m
+	IDC("/I0/N12/D")		27.49u
+	OP("/I0/N12" "vds")		1.058
+	OP("/I0/N12" "vgt")		141.5m
+	VDC("/I0/mirror2")		1.144
+Design parameters: 
+
+ExplorerRun.0
+Number of points completed: 1
+Number of simulation errors: 0
+ExplorerRun.0 completed. 
+Current time: Thu May  2 22:02:48 2024 

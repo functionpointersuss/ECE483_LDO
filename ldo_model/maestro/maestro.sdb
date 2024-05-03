@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <setupdb version="7">maestro
 	<active>Active Setup
-		<jobcontrolmode>ICRP</jobcontrolmode>
+		<jobcontrolmode>LSCS</jobcontrolmode>
 		<corners>
 			<corner enabled="1">_default</corner>
 		</corners>
@@ -31,7 +31,7 @@
 				</tooloptions>
 				<vars>
 					<var>Aea
-						<value>200k</value>
+						<value>14421</value>
 					</var>
 					<var>Co1
 						<value>100f</value>
@@ -40,7 +40,7 @@
 						<value>200p</value>
 					</var>
 					<var>Gm1
-						<value>2m</value>
+						<value>129.5u</value>
 					</var>
 					<var>Iload
 						<value>1m</value>
@@ -180,9 +180,9 @@
 		<overwritehistoryname>ExplorerRun.0</overwritehistoryname>
 		<jobpolicyname>Maestro Default</jobpolicyname>
 		<specs>
-			<spec>ece483_sp23_ldo_model_1.(abs(OP("/P0" "vds")) - abs(OP("/P0" "vgt")))
+			<spec>ece483_sp23_ldo_model_1.Pass in Saturation
 				<testname>ece483_sp23_ldo_model_1</testname>
-				<resname>(abs(OP("/P0" "vds")) - abs(OP("/P0" "vgt")))</resname>
+				<resname>Pass in Saturation</resname>
 				<specType>gt</specType>
 				<min>0</min>
 				<max></max>
@@ -208,6 +208,7 @@
 				<tol></tol>
 			</spec>
 		</specs>
+		<netlistjobpolicyname>Netlisting Default</netlistjobpolicyname>
 	</active>
 	<history>History
 	</history>

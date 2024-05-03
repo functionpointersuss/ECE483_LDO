@@ -1,0 +1,20 @@
+Starting Single Run, Sweeps and Corners...
+
+Current time: Fri May  3 03:34:37 2024 
+Best design point: 1
+Design specs: 
+	ece483_sp23_ldo_actual_1	corner	Nominal - 
+	Phase Margin		83.49
+	Gain Margin		25.73
+	ymax(abs(deriv(VS("/Vout"))))		114.1m
+	rdsp		3.07K
+	Pass in Saturation		523.8m
+	Quiescent		182.5u
+	ymax(mag(VF("/Vout")))		949.9m
+Design parameters: 
+
+ExplorerRun.0
+Number of points completed: 1
+Number of simulation errors: 0
+ExplorerRun.0 completed. 
+Current time: Fri May  3 03:34:48 2024 

@@ -1,0 +1,19 @@
+Starting Single Run, Sweeps and Corners...
+
+Current time: Thu May  2 20:46:54 2024 
+Best design point: 1
+Design specs: 
+	ece483_sp23_current_tb_1	corner	Nominal - 
+	VDC("/vovp")		1.131
+	VDC("/vovn")		683.5m
+	OP("/I0/N0" "vgt")		206.8m
+	OP("/I0/P0" "vgt")		-206.5m
+	IDC("/I0/N0/D")		25.16u
+	IDC("/I0/P0/S")		27.49u
+Design parameters: 
+
+ExplorerRun.0
+Number of points completed: 1
+Number of simulation errors: 0
+ExplorerRun.0 completed. 
+Current time: Thu May  2 20:47:11 2024 

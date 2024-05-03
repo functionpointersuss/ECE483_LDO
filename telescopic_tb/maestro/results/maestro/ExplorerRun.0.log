@@ -1,0 +1,31 @@
+Starting Single Run, Sweeps and Corners...
+
+Current time: Fri May  3 02:43:45 2024 
+Best design point: 1
+Design specs: 
+	ece483_sp23_telescopic_tb_1	corner	Nominal - 
+	A0		83.18	No
+	fugf		15.11M
+	Vout		1.344
+	V Between		335.7m
+	V tail		143.9m
+	V Bias N		836.7m
+	V Bias P		1.08
+	I Bias P		32.12u
+	I Bias N		33.71u
+	Tail Saturation		59.21m	Yes
+	Cascode Saturation		990m	Yes
+	Gm Saturation		168.2m	Yes
+	Gm Vov		23.52m
+	Gm I Bias		5.829u
+	Tail Current		45.37u
+	Cascode Vov		17.98m
+	Cascode Threshold		483m
+	Gm gm		129.5u
+Design parameters: 
+
+ExplorerRun.0
+Number of points completed: 1
+Number of simulation errors: 0
+ExplorerRun.0 completed. 
+Current time: Fri May  3 02:44:02 2024 

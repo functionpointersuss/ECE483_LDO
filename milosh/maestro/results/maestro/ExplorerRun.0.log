@@ -1,0 +1,15 @@
+Starting Single Run, Sweeps and Corners...
+
+Current time: Thu May  2 21:29:58 2024 
+Best design point: 1
+Design specs: 
+	ece483_sp23_milosh_1	corner	Nominal - 
+	VDC("/vbp1")		-450.7m
+	IDC("/I0/PLUS")		25u
+Design parameters: 
+
+ExplorerRun.0
+Number of points completed: 1
+Number of simulation errors: 0
+ExplorerRun.0 completed. 
+Current time: Thu May  2 21:30:07 2024 
