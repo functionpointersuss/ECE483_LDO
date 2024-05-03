@@ -1,31 +1,39 @@
 Starting Single Run, Sweeps and Corners...
 
-Current time: Fri May  3 02:43:45 2024 
+Current time: Fri May  3 14:52:35 2024 
 Best design point: 1
 Design specs: 
 	ece483_sp23_telescopic_tb_1	corner	Nominal - 
-	A0		83.18	No
-	fugf		15.11M
-	Vout		1.344
-	V Between		335.7m
-	V tail		143.9m
-	V Bias N		836.7m
-	V Bias P		1.08
-	I Bias P		32.12u
-	I Bias N		33.71u
-	Tail Saturation		59.21m	Yes
-	Cascode Saturation		990m	Yes
-	Gm Saturation		168.2m	Yes
-	Gm Vov		23.52m
-	Gm I Bias		5.829u
-	Tail Current		45.37u
-	Cascode Vov		17.98m
-	Cascode Threshold		483m
-	Gm gm		129.5u
+	A0		79.7	No
+	fugf		Error	No
+	Vout		1.336
+	V Between		412m
+	V tail		315.5m
+	V Bias N		917.4m
+	V Bias P		1.124
+	I Bias P		9.139u
+	I Bias N		7.529u
+	Tail Saturation		271.2m	Yes
+	Cascode Saturation		907.7m	Yes
+	Gm Saturation		76.58m	Yes
+	Gm Vov		19.96m
+	Gm I Bias		5.403u
+	Tail Current		18.33u
+	Cascode Vov		16.3m
+	Cascode Threshold		489.1m
+	Gm gm		120.8u
+	P Cascode rds		5.155M
+	P Cascode vov		-67.8m
+	Cascode rds		2.872M
+	gm Cascode		123.3u
+	(OP("/I2/P1" "vds") - OP("/I2/P1" "vgt"))		-233.5m	Yes
+	(OP("/I2/P5" "vds") - OP("/I2/P5" "vgt"))		-92.47m	Yes
+	VDC("/I2/net27")		1.637
+	OP("/I2/P5" "vgt")		-70.18m
 Design parameters: 
 
 ExplorerRun.0
 Number of points completed: 1
-Number of simulation errors: 0
+Number of simulation errors: 1
 ExplorerRun.0 completed. 
-Current time: Fri May  3 02:44:02 2024 
+Current time: Fri May  3 14:52:54 2024 

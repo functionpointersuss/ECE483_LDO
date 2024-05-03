@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <setupdb version="7">maestro
 	<active>Active Setup
-		<jobcontrolmode>LSCS</jobcontrolmode>
+		<jobcontrolmode>ICRP</jobcontrolmode>
 		<corners>
 			<corner enabled="1">_default</corner>
 		</corners>
@@ -34,19 +34,22 @@
 						<value>200p</value>
 					</var>
 					<var>Iload
-						<value>1m</value>
+						<value>10m</value>
+					</var>
+					<var>wn
+						<value>3*12*11*180n</value>
 					</var>
 					<var>lengthn
-						<value>10*180n</value>
+						<value>3*12*180n</value>
 					</var>
-					<var>Lp
-						<value>270n</value>
+					<var>wp
+						<value>2*12*11*180n</value>
 					</var>
 					<var>lp
-						<value>10*180n</value>
+						<value>2*12*180n</value>
 					</var>
-					<var>ltail
-						<value>2*180n</value>
+					<var>Lp
+						<value>180n</value>
 					</var>
 					<var>Rf1
 						<value>7.5k</value>
@@ -66,17 +69,14 @@
 					<var>vref
 						<value>0</value>
 					</var>
-					<var>wn
-						<value>11*10*180n</value>
-					</var>
 					<var>Wp
-						<value>50u</value>
-					</var>
-					<var>wp
-						<value>11*10*180n</value>
+						<value>18u</value>
 					</var>
 					<var>wtail
-						<value>30*180n</value>
+						<value>25*180n</value>
+					</var>
+					<var>ltail
+						<value>2*180n</value>
 					</var>
 				</vars>
 				<origoptions>
@@ -97,7 +97,16 @@
 					</option>
 				</origoptions>
 				<outputs>
-					<output>ymax(abs(deriv(VS("/Vout"))))
+					<output>Load Regulation Val
+						<evalType>point</evalType>
+					</output>
+					<output>cross(db(mag(getData("loopGain" ?result "stb"))) 0)
+						<evalType>point</evalType>
+					</output>
+					<output>VF("/Vout")
+						<evalType>point</evalType>
+					</output>
+					<output>dB20(VF("/Vout"))
 						<evalType>point</evalType>
 					</output>
 				</outputs>
@@ -148,6 +157,7 @@
 			<copyreferenceresults>1</copyreferenceresults>
 		</incrementalsimsetup>
 		<overwritehistoryname>ExplorerRun.0</overwritehistoryname>
+		<jobpolicyname>Maestro Default</jobpolicyname>
 	</active>
 	<history>History
 	</history>

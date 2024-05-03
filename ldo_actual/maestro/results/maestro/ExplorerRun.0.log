@@ -1,20 +1,21 @@
 Starting Single Run, Sweeps and Corners...
 
-Current time: Fri May  3 03:34:37 2024 
+Current time: Fri May  3 15:42:02 2024 
 Best design point: 1
 Design specs: 
 	ece483_sp23_ldo_actual_1	corner	Nominal - 
-	Phase Margin		83.49
-	Gain Margin		25.73
-	ymax(abs(deriv(VS("/Vout"))))		114.1m
-	rdsp		3.07K
-	Pass in Saturation		523.8m
-	Quiescent		182.5u
-	ymax(mag(VF("/Vout")))		949.9m
+	Phase Margin		56.63
+	Gain Margin		11.91
+	Load Regulation Val		395.9m
+	rdsp		182
+	Pass in Saturation		556m
+	Quiescent		107.9u
+	OP("/I4/N3" "vgt")		17.46m
+	cross(db(mag(getData("loopGain" ?result "stb"))) 0)		642.6K
 Design parameters: 
 
 ExplorerRun.0
 Number of points completed: 1
 Number of simulation errors: 0
 ExplorerRun.0 completed. 
-Current time: Fri May  3 03:34:48 2024 
+Current time: Fri May  3 15:42:08 2024 

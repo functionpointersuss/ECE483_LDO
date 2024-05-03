@@ -31,19 +31,19 @@
 				</tooloptions>
 				<vars>
 					<var>lp
-						<value>10*180n</value>
-					</var>
-					<var>lengthn
-						<value>10*180n</value>
-					</var>
-					<var>wn
-						<value>11*10*180n</value>
+						<value>2*12*180n</value>
 					</var>
 					<var>wp
-						<value>11*10*180n</value>
+						<value>2*12*8*180n</value>
+					</var>
+					<var>wn
+						<value>3*12*11*180n</value>
+					</var>
+					<var>lengthn
+						<value>3*12*180n</value>
 					</var>
 					<var>vic
-						<value>0.6</value>
+						<value>0.8</value>
 					</var>
 					<var>CL
 						<value>200f</value>
@@ -58,7 +58,7 @@
 						<value>2*180n</value>
 					</var>
 					<var>wtail
-						<value>30*180n</value>
+						<value>25*180n</value>
 					</var>
 				</vars>
 				<origoptions>
@@ -89,6 +89,9 @@
 						<evalType>point</evalType>
 					</output>
 					<output>V tail
+						<evalType>point</evalType>
+					</output>
+					<output>Cascode rds
 						<evalType>point</evalType>
 					</output>
 				</outputs>
@@ -173,6 +176,24 @@
 				<specType>gt</specType>
 				<min>0</min>
 				<max></max>
+				<target></target>
+				<tol></tol>
+			</spec>
+			<spec>ece483_sp23_telescopic_tb_1.(OP("/I2/P5" "vds") - OP("/I2/P5" "vgt"))
+				<testname>ece483_sp23_telescopic_tb_1</testname>
+				<resname>(OP("/I2/P5" "vds") - OP("/I2/P5" "vgt"))</resname>
+				<specType>lt</specType>
+				<min></min>
+				<max>0</max>
+				<target></target>
+				<tol></tol>
+			</spec>
+			<spec>ece483_sp23_telescopic_tb_1.(OP("/I2/P1" "vds") - OP("/I2/P1" "vgt"))
+				<testname>ece483_sp23_telescopic_tb_1</testname>
+				<resname>(OP("/I2/P1" "vds") - OP("/I2/P1" "vgt"))</resname>
+				<specType>lt</specType>
+				<min></min>
+				<max>0</max>
 				<target></target>
 				<tol></tol>
 			</spec>
